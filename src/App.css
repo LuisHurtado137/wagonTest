@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url(//db.onlinewebfonts.com/c/d10313bfbb94a75c9b509dd406902a47?family=LuloCleanW01-OutlineBold);
+@font-face {font-family: "LuloCleanW01-OutlineBold"; src: url("//db.onlinewebfonts.com/t/d10313bfbb94a75c9b509dd406902a47.eot"); src: url("//db.onlinewebfonts.com/t/d10313bfbb94a75c9b509dd406902a47.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d10313bfbb94a75c9b509dd406902a47.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d10313bfbb94a75c9b509dd406902a47.woff") format("woff"), url("//db.onlinewebfonts.com/t/d10313bfbb94a75c9b509dd406902a47.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d10313bfbb94a75c9b509dd406902a47.svg#LuloCleanW01-OutlineBold") format("svg"); }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+.titles {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-f1ece9);
+    text-align: center;
+    font: normal bold 120px/200px Lulo Clean Outline;
+    font-family: "LuloCleanW01-OutlineBold";
+    letter-spacing: 0px;
+    color: #F1ECE9;
+    opacity: 1;
+}
+.subTitles {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-25)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-lulo-clean-w01-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-88b1c6);
+    text-align: left;
+    font: normal normal bold 25px/37px Lulo Clean W01 One;
+    letter-spacing: 0px;
+    color: #88B1C6;
+    opacity: 1;
+}
+.paragraphs {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-25) var(--unnamed-font-family-din);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-161415);
+    font: normal normal normal 16px/25px DIN;
+    letter-spacing: 0px;
+    color: black; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer{
+    background-color: #88B1C6;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+}
+.footer h2{
+    color: black;
+    font-size: 40px;
+    margin: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.socialMedia{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,18 @@
+.main-page {
+    position: fixed;
+    top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+}
+.main-paragraph{
+    width: 380px;
+    background: url("../../assest/Rectángulo 14.svg");    
+    text-align: center;
+}
+.text-paragraph{
+    color: white;
+    font:400
+}

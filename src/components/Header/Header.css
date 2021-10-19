@@ -13,6 +13,7 @@
     justify-content: center;
     height: 100vh;
 }
+
 .header-items {
     width: 88%;
     margin-top: 74px;
@@ -23,6 +24,8 @@
 }
 .header-items li{
     list-style: none;
+    width: 75px;
+    height: 40px;
     margin: 10px;
     color: white;
     transition: 0.2s ease-in;

@@ -9,10 +9,10 @@ export const Header = () =>{
         <div>
            <header className="header">  
            <img src={Elipse} alt="decoration" className="elipse" />
-                <ul className="header-items" >
+                <ul className="header-items">
                     <li>PROYECTOS</li>
                     <li>SKILLS</li>
-                    <img src={Logo} alt="logo"/>
+                    <img src={Logo} alt="logo"/>    
                     <li>PROYECTOS</li>
                     <li>PROYECTOS</li>
                 </ul>

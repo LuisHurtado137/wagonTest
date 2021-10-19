@@ -1,0 +1,71 @@
+.projectsPage {
+    background: url("../../assest/Rectángulo 19.svg") no-repeat fixed;
+    clip-path: polygon(100% 0, 100% 100%, 50% 94%, 0 100%, 0 0);    
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.projects-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.project-text{
+    text-align: right;
+}
+
+.projectCard-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    margin: 0;
+}
+
+.projectCard-container img{
+    
+    padding:10px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.projectCard-container img:hover{
+    transform:scale(1.1);
+}
+
+.projectCard h2{
+    visibility: hidden;
+    color: orange;
+}
+.projectCard p{
+    visibility: hidden;
+    color: orange;
+}
+.projectCard:hover h2{
+    visibility: visible;
+    position: absolute;
+    top: 700px;
+}
+.projectCard:hover p{
+    visibility: visible;
+    position: absolute;
+    text-decoration: underline;
+    top: 740px;
+}
+
+.decoration-container {
+    width: 330px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+}
+.elipse1 {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.elipse2 {
+    position: absolute;
+    top: -25%;
+    left: -10%;
+}
